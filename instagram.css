@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+}
+
+.sidebar {
+  width: 260px;
+  border-right: 1px solid #dcdcdc;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.sidebar_top {
+  width: 196px;
+  height: 36px;
+  margin: 40px 0px 0px 25px;
+}
+
+.sidebar_mid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 220px;
+  margin: 0px 17px;
+  padding: 12px;
+}
+
+.sidebar_text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.picture {
+  width: 24px;
+  height: 24px;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.sidebar_bottom {
+  width: 220px;
+  height: 56px;
+  margin: 55px 0px 0px 28px;
+}
+
+.my_image {
+  width: 56px;
+  height: 56px;
+  border: 1px solid;
+  border-radius: 28px;
+}
+
+.change {
+  color: #0095f6;
+  font-size: 12px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 30px 0px 0px;
+}
+
+.top {
+  width: 320px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 0px 200px 0px 0px;
+  gap: 155px;
+}
+
+.container_top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_mid1 {
+  display: flex;
+  align-items: center;
+  gap: 135px;
+  margin: 12px 0px 15px 0px;
+}
+
+.fri_img {
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  border-radius: 16px;
+  margin: 0px 15px 0px 0px;
+}
+
+.container_mid2 {
+  gap: 20px;
+}
+.id_ment {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 80px 0px 0px;
+}
+
+.ment {
+  font-size: 12px;
+}
+
+.follow {
+  margin: 13px 0px 0px 37px;
+  color: #0095f6;
+  font-size: 12px;
+}
+
+.friends {
+  display: flex;
+  margin: 0px 0px 10px 0px;
+}
+
+.container_bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #d2d2d2;
+  margin: 30px 0px 0px 0px;
+}
+
+.asdf {
+  margin: 20px 0px 0px 0px;
+}
+
+.mid1_ment1 {
+  font-size: 14px;
+  color: #737373;
+}
+
+.mid1_ment2 {
+  font-size: 12px;
+}
+
+.id {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.my_id {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.storybar {
+  width: 470px;
+  height: 120px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 0px 100px 0px 0px;
+  display: flex;
+}
+
+.story_img {
+  width: 56px;
+  height: 56px;
+  border: 2px solid;
+  border-radius: 28px;
+  border-color: #ff1493;
+  margin: 20px 10px 0px 8px;
+}
+
+.story_id {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 10px 0px 0px 0px;
+}
+
+.post1 {
+  width: 470px;
+  height: 865px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.post_fri_img {
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  border-radius: 16px;
+  margin: 15px 15px 15px 15px;
+}
+
+.post_fri_id {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  margin: 0px 5px 0px 0px;
+}
+
+.post_p {
+  width: 470px;
+  height: 585px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.post_top {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  background-image: linear-gradient(to bottom, pink, yellow);
+  margin: 0px 15px 0px 0px;
+}
+
+.post_top_ {
+  display: flex;
+  align-items: center;
+}
+
+.post_mid1 {
+  width: 470px;
+  height: 50px;
+}
+
+.post_mid1_l {
+  display: flex;
+  margin: 10px 0px 0px 10px;
+  gap: 15px;
+}
+
+.post_mid1_a {
+  display: flex;
+  align-items: center;
+  gap: 330px;
+}
+
+.post_mid2_t {
+  margin-left: 10px;
+}
+
+.post_mid2_id {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.id_scan {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.comment {
+  color: #737373;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.time {
+  color: #737373;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.text {
+  color: #737373;
+}
+
+.post_bottom_l {
+  display: flex;
+  gap: 15px;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.posting {
+  opacity: 0.5;
+  color: #87cefa;
+  margin-top: 10px;
+}
+
+.post_bottom {
+  display: flex;
+  gap: 300px;
+}
+
+.post1 {
+  margin-top: 15px;
+}
